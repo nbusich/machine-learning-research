@@ -19,7 +19,7 @@ trained on a preliminary dataset of about 60 images and corresponding labels res
 NEXT STEPS:
 Lets look back to the original problem of reducing/eliminating manual image classification while still generating enough data for research. 
 The key word is **enough** data for research. There are millions of images being generated, while 1000 images would probably suffice for the research being conducted. That means
-we don't actually have to acheive 100% accuracy in order to solve the problem. We only need to classify good bad images with 100% accuracy, to avoid bad data skewing results.
+we don't actually have to acheive 100% accuracy in order to solve the problem. We only need to classify bad images with 100% accuracy, to avoid bad data skewing results.
 That means we can misclassify good images as bad, so long as we keep a reasonable amount (enough) images for the purposes of the research. Therefore, with a classification
 algorithm other than kSVM (because it does not produce probabilities) we will keep only images where the model produces a high threshold of certainty for good or bad. The next
 steps are therefore implementing a model other than kSVM using the representation vectors, and thresholding the probability necessary to be classified as good. I will implement
