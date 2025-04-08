@@ -1,28 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a27fac43-8155-42e6-b552-d5c8fef361a2" name="Changes" comment="" />
+    <list default="true" id="a27fac43-8155-42e6-b552-d5c8fef361a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/simCLR_kSVM/simCLR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slurm_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/Conv_Autoencoder_KSVM.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/Conv_Autoencoder_KSVM.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/conv_autoencoder_MMD.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/conv_autoencoder_MMD.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/noisy_student.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/noisy_student.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/simCLR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/simCLR.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_26_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_26_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_26_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_26_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_26_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_26_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_26_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_26_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_26_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_26_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_27_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_27_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_27_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_27_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_27_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_27_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_27_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_27_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_27_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_27_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_27_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_27_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_27_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_27_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_27_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_27_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_28_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_28_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_29_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_29_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_29_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_29_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_31_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_31_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_32_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_32_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_33_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_33_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_33_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_33_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_34_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_34_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_34_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_34_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_34_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_34_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_35_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_35_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_35_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_35_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_35_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_35_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_35_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_35_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_35_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_35_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_37_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_37_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_37_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_37_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_38_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_38_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_38_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_38_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_38_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_38_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_38_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_38_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_41_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_41_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_42_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_42_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_42_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_42_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_42_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_42_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_42_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_42_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_42_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_42_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_42_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_42_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/bad/img_50_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/bad/img_50_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_0_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_0_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_0_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_0_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_0_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_0_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_0_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_0_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_0_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_0_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_13_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_13_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_15_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_15_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_17_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_17_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_18_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_18_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_23_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_23_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_25_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_25_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_26_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_26_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_2_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_2_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_30_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_30_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_33_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_33_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_34_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_34_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_34_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_34_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_34_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_34_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_39_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_39_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_3_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_3_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_3_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_3_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_4_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_4_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_52_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_52_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_52_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_52_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_65_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_65_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_66_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_66_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_66_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_66_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_66_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_66_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_6_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_6_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_6_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_6_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_76_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_76_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_77_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_77_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_78_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_78_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_78_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_78_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_7_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_7_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_87_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_87_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_87_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_87_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_8_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_8_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_91_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_91_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_91_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_91_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_97_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_97_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_application/train/good/img_99_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/conv_autoencoder_KSVM/train/good/img_99_2.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nbusich&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nbusich/machine-learning-research&quot;,
+    &quot;accountId&quot;: &quot;902a06c9-8cf1-4a68-ad68-e55575133203&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2v5NJfhRZaYuTgl6MY3qHNvACcp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/nickusich/Documents/Coding/machine-learning-research",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nickusich/Documents/Coding/machine-learning-research&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -40,7 +163,19 @@
       <option name="presentableId" value="Default" />
       <updated>1743430904411</updated>
       <workItem from="1743430905435" duration="2000" />
+      <workItem from="1743434336012" duration="1829000" />
+      <workItem from="1743448595312" duration="2424000" />
+      <workItem from="1743959011165" duration="1081000" />
+      <workItem from="1743961229168" duration="3065000" />
+      <workItem from="1744047668577" duration="2593000" />
+      <workItem from="1744053486680" duration="269000" />
+      <workItem from="1744055167463" duration="699000" />
+      <workItem from="1744056556695" duration="1095000" />
+      <workItem from="1744124130718" duration="741000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

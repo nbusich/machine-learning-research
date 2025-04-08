@@ -1,0 +1,28 @@
+srun - submits job and adds to queue, the job is interactive, so it runs in terminal. Useful for Python
+    To start session from login:
+        srun [options] [command]
+    Example: srun job running on 1 node with 1 task:
+        srun -N 1 -n 1 -p short -pty bash
+    Where:
+        n, --ntasks=<number>: specify the number of tasks
+        N, --nodes=<minnodes[-maxnodes]>: specify the number of nodes
+        p, --partition=<partition-name>: specify a partition for the job to run on
+sbatch - submits job and adds to queue for passive execution
+
+sinfo - shows information about all partitions in cluster, name, nodes, status
+sinfo -p <partition_name> - shows info about specific partition: e.g. partition_name = short, gpu, or long
+squeue - monitor state of jobs in queue
+squeue -u <username> - monitors state of jobs for specific user
+scancel <jobid> - cancels specific job
+
+
+job-assist - helps make running jobs with srun and sbatch easier
+    Mode:
+    Default: Quickly start job with default settings
+    Interactive: submits interactive job with custom resource requests
+    Batch: generate and save sbatch scripts
+    FIRST:
+        module load job-assist
+    THEN:
+        job-assist
+
