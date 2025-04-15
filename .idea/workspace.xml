@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a27fac43-8155-42e6-b552-d5c8fef361a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/simCLR/CIFAR10/cifar-10-batches-py/batches.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simCLR/CIFAR10/cifar-10-batches-py/data_batch_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simCLR/CIFAR10/cifar-10-batches-py/data_batch_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simCLR/CIFAR10/cifar-10-batches-py/data_batch_3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simCLR/CIFAR10/cifar-10-batches-py/data_batch_4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simCLR/CIFAR10/cifar-10-batches-py/data_batch_5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simCLR/CIFAR10/cifar-10-batches-py/readme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simCLR/CIFAR10/cifar-10-batches-py/test_batch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simCLR/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/simCLR/main.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image processing/image_cropping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image processing/process_matlab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +47,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.image_cropping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.process_matlab.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/nickusich/Documents/Coding/machine-learning-research&quot;,
@@ -66,12 +62,42 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image processing" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/simCLR/data" />
       <recent name="$PROJECT_DIR$/simCLR/CIFAR10" />
       <recent name="$PROJECT_DIR$/simCLR_kSVM/old code" />
-      <recent name="$PROJECT_DIR$/simCLR_kSVM/Lyme40" />
-      <recent name="$PROJECT_DIR$/simCLR_kSVM/aaaa/good" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="process_matlab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine-learning-research" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/image processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image processing/process_matlab.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.process_matlab" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -99,6 +125,9 @@
       <workItem from="1744055167463" duration="699000" />
       <workItem from="1744056556695" duration="1095000" />
       <workItem from="1744124130718" duration="30758000" />
+      <workItem from="1744303279418" duration="12715000" />
+      <workItem from="1744391654723" duration="544000" />
+      <workItem from="1744653467821" duration="602000" />
     </task>
     <servers />
   </component>
@@ -120,5 +149,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/machine_learning_research$image_cropping.coverage" NAME="image_cropping Coverage Results" MODIFIED="1744310924195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image processing" />
+    <SUITE FILE_PATH="coverage/machine_learning_research$process_matlab.coverage" NAME="process_matlab Coverage Results" MODIFIED="1744313030745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image processing" />
   </component>
 </project>
